@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-crush-bg: #FFF5F7;
+  --color-crush-card: #FFFFFF;
+  --color-crush-pink: #EEACC2;
+  --color-crush-yellow: #F3E49B;
+  --color-crush-blue: #9DD9E1;
+  --color-crush-dark: #5D4B4C;
+  --color-crush-gray: #9E8B8C;
+  --color-crush-warn: #F3B8A0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  background: #FFF5F7;
+  color: #9E8B8C;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #EEACC2;
+  border-radius: 2px;
+}
+
+/* Range slider customization */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  background: #FFF0F3;
+  border-radius: 3px;
+  outline: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #EEACC2;
+  cursor: pointer;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
