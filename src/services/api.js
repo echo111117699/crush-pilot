@@ -1,6 +1,6 @@
 const API_KEY_STORAGE_KEY = 'crush-pilot-api-key'
 const API_BASE = '/api/deepseek/v1/chat/completions'
-const DEFAULT_KEY = 'sk-32b7cd77ed49424facb4c44769ad9731'
+const DEFAULT_KEY = ''
 const MODEL = 'deepseek-chat'
 
 function getApiKey() {
